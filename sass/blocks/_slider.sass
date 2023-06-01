@@ -1,0 +1,54 @@
+.slider
+  margin-bottom: 150px
+  &-block
+    display: flex
+    justify-content: space-between
+    align-items: center
+    &__safe
+      display: flex
+      align-items: center
+      width: 1076px
+      height: 530px
+      background: rgba(19, 61, 141, 0.15)
+      padding: 60px
+    &__arrow
+      &-right
+        padding: 25px
+        width: 60px
+        height: 60px
+        background: $third-color
+      &-left
+        padding: 25px
+        width: 60px
+        height: 60px
+        background: $third-color
+.safe
+  &-desc
+    &__btn
+      padding: 8px 12px
+      background: $third-color
+      border: none
+      margin-bottom: 45px
+      +medium
+      font-size: 13px
+      line-height: 140%
+      color: $primery-color
+    &__title
+      margin-bottom: 25px
+      +bold
+      font-size: 18px
+      line-height: 140%
+      color: $secondary-color
+      text-transform: uppercase
+    &__list
+      width: 387px
+      list-style: url(../img/red-square.jpg)
+    &__item
+      margin-bottom: 25px
+      +light
+      font-size: 14px
+      line-height: 140%
+      color: $secondary-color
+  &__img
+    margin-left: 60px
+    height: 410px

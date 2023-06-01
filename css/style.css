@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  margin: 0;
 }
 
 .container {
@@ -50,10 +51,13 @@ img {
 }
 
 .header {
-  background: url(../img/header-Fon.jpg) no-repeat center right;
+  background: url(../img/header-Fon.jpg) no-repeat center;
   background-size: cover;
 }
 
+.navbar {
+  margin-bottom: 150px;
+}
 .navbar-wrap {
   display: flex;
   flex-wrap: wrap;
@@ -126,6 +130,9 @@ img {
 .hero__btn {
   margin-bottom: 131px;
 }
+.hero__btn:hover {
+  background-color: rgba(189, 0, 7, 0.5);
+}
 .hero__arrow {
   display: flex;
 }
@@ -143,4 +150,464 @@ img {
   background: #133D8D;
   margin-right: 20px;
   margin-bottom: 100px;
+}
+.hero__tanker {
+  position: absolute;
+  left: 57%;
+  top: 72%;
+}
+
+.tanker {
+  width: 526px;
+  height: 235px;
+  background: rgba(51, 51, 51, 0.3);
+}
+.tanker-wrap {
+  display: flex;
+  align-items: center;
+}
+.tanker__title {
+  margin: 30px 35px 10px 35px;
+  font-family: "Helvetica Neue Cyr Medium", sans-serif;
+  font-size: 14px;
+  line-height: 140%;
+  text-transform: uppercase;
+}
+
+.feature__item {
+  margin: 15px 15px 15px 35px;
+  font-family: "Helvetica Neue Cyr Light", sans-serif;
+  font-size: 14px;
+  line-height: 140%;
+  color: #fff;
+}
+
+.desc__item {
+  margin: 15px 76px 15px 0;
+  font-family: "Helvetica Neue Cyr Light", sans-serif;
+  font-size: 14px;
+  line-height: 140%;
+  color: #fff;
+}
+
+.title-wraper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-title {
+  font-family: "Helvetica Neue Cyr Medium", sans-serif;
+  font-size: 36px;
+  line-height: 140%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #333333;
+}
+.section-title-small {
+  font-family: "Helvetica Neue Cyr Medium", sans-serif;
+  font-size: 18px;
+  line-height: 140%;
+  text-align: right;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #133D8D;
+}
+
+.new {
+  padding-bottom: 137px;
+}
+.new__title {
+  margin-bottom: 100px;
+}
+.new-block {
+  display: flex;
+}
+.new-block__btn {
+  font-family: "Helvetica Neue Cyr Light", sans-serif;
+  font-size: 13px;
+  line-height: 140%;
+  text-transform: uppercase;
+  border: none;
+  padding: 8px 12px;
+  color: #fff;
+  background: #BD0007;
+  margin: 25px 0 108px 25px;
+}
+.new-block__item {
+  max-width: 306px;
+  margin-right: 24px;
+  height: auto;
+}
+.new-block__item1 {
+  background: url(../img/Rec-first.jpg) no-repeat center;
+}
+.new-block__item2 {
+  background: url(../img/Rec-second.jpg) no-repeat center;
+}
+.new-block__item3 {
+  background: url(../img/Rec-third.jpg) no-repeat center;
+}
+.new-block__item4 {
+  background: url(../img/Rec-fourth.jpg) no-repeat center;
+}
+.new-block__text {
+  font-family: "Helvetica Neue Cyr Light", sans-serif;
+  font-size: 16px;
+  line-height: 140%;
+  color: #fff;
+  margin-bottom: 15px;
+  margin-left: 25px;
+}
+.new-block__desc {
+  font-family: "Helvetica Neue Cyr Light", sans-serif;
+  font-size: 16px;
+  line-height: 140%;
+  color: #fff;
+  opacity: 75%;
+  margin-left: 25px;
+}
+
+.history {
+  background-color: #133D8D;
+  margin-bottom: 150px;
+}
+.history-wrap {
+  display: flex;
+}
+.history__title {
+  color: #fff;
+  padding-top: 120px;
+  margin-bottom: 40px;
+}
+.history__text {
+  max-width: 526px;
+  max-height: 468px;
+  margin-right: 144px;
+  font-family: "Helvetica Neue Cyr Medium", sans-serif;
+  font-size: 14px;
+  line-height: 140%;
+}
+.history__img {
+  max-width: 606px;
+  max-height: 376.5px;
+  margin-bottom: 15px;
+}
+.history__list {
+  list-style-type: square;
+  margin-left: 60px;
+  margin-bottom: 45px;
+}
+.history__item {
+  margin-bottom: 10px;
+  font-family: "Helvetica Neue Cyr Light", sans-serif;
+  font-size: 16px;
+  line-height: 140%;
+}
+.history__item:last-child {
+  margin-bottom: 0;
+}
+
+.public {
+  margin-bottom: 206px;
+}
+.public__title {
+  margin-bottom: 100px;
+}
+.public-blocks {
+  display: flex;
+}
+.public-blocks__item {
+  display: flex;
+  flex-direction: column;
+  margin-right: 24px;
+  overflow: hidden;
+}
+.public-blocks__img {
+  margin-bottom: 30px;
+  max-width: 306px;
+  height: 260px;
+  transition: all 0.5s;
+}
+.public-blocks__img:hover {
+  transform: scale(1.1);
+}
+.public-blocks__date {
+  font-family: "Helvetica Neue Cyr Light", sans-serif;
+  font-size: 14px;
+  line-height: 140%;
+  color: #333333;
+  margin-bottom: 20px;
+}
+.public-blocks__desc {
+  font-family: "Helvetica Neue Cyr Bold", sans-serif;
+  font-size: 16px;
+  line-height: 140%;
+  color: #333333;
+  margin-bottom: 20px;
+}
+.public-blocks__more {
+  font-family: "Helvetica Neue Cyr Medium", sans-serif;
+  font-size: 13px;
+  line-height: 140%;
+  color: #133D8D;
+  text-decoration: none;
+  margin: auto 0 0 0;
+}
+
+.project {
+  background: rgba(19, 61, 141, 0.5);
+  padding-bottom: 150px;
+  margin-bottom: 150px;
+}
+.project-wraper {
+  display: flex;
+  align-items: center;
+  padding-bottom: 45px;
+  padding-top: 100px;
+}
+.project__title {
+  width: 950px;
+  height: 50px;
+  font-family: "Helvetica Neue Cyr Light", sans-serif;
+  font-size: 36px;
+  line-height: 140%;
+  color: #fff;
+}
+.project__title-small {
+  font-family: "Helvetica Neue Cyr Medium", sans-serif;
+  font-size: 18px;
+  line-height: 140%;
+  color: #fff;
+  margin-left: 50px;
+  margin-right: 40px;
+}
+.project__arrow {
+  display: flex;
+}
+.project__arrow-right {
+  width: 60px;
+  height: 60px;
+  background: #133D8D;
+}
+.project__arrow-left {
+  width: 60px;
+  height: 60px;
+  background: #133D8D;
+  margin-right: 15px;
+}
+.project__blocks-wraper {
+  display: flex;
+}
+.project__ship {
+  width: 706px;
+  height: 600px;
+  background: url(../img/bg-ship.png) no-repeat center;
+  background-size: cover;
+}
+.project__ship-title {
+  font-family: "Helvetica Neue Cyr Bold", sans-serif;
+  font-size: 24px;
+  line-height: 140%;
+  color: #fff;
+  padding-top: 441px;
+  padding-left: 45px;
+  margin-bottom: 20px;
+}
+.project__ship-desc {
+  display: block;
+  max-width: 468px;
+  max-height: 60px;
+  font-family: "Helvetica Neue Cyr Light", sans-serif;
+  font-size: 14px;
+  line-height: 140%;
+  color: #fff;
+  padding-left: 45px;
+  margin-bottom: 45px;
+}
+.project__charec {
+  width: 590px;
+  height: 600px;
+  background: #133D8D;
+}
+
+.charec-wraper {
+  display: flex;
+  padding-top: 55px;
+  padding-left: 60px;
+  margin-bottom: 180px;
+}
+.charec__item {
+  font-family: "Helvetica Neue Cyr Medium", sans-serif;
+  font-size: 40px;
+  line-height: 140%;
+  margin-bottom: 10px;
+}
+.charec__item-sz {
+  padding-left: 15px;
+  font-family: "Helvetica Neue Cyr Light", sans-serif;
+  font-size: 14px;
+  line-height: 140%;
+}
+.charec__item-desc {
+  padding-left: 15px;
+  margin-bottom: 30px;
+  font-family: "Helvetica Neue Cyr Light", sans-serif;
+  font-size: 14px;
+  line-height: 140%;
+}
+.charec__btn {
+  padding: 15px 20px;
+  margin-left: 60px;
+  background: transparent;
+  border-color: #fff;
+  font-family: "Helvetica Neue Cyr Medium", sans-serif;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0.05em;
+  color: #fff;
+  text-transform: uppercase;
+  transition: all 0.2s;
+}
+.charec__btn:hover {
+  transform: scale(1.05);
+  border-color: #133D8D;
+  background: #fff;
+  color: #133D8D;
+}
+
+.slider {
+  margin-bottom: 150px;
+}
+.slider-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.slider-block__safe {
+  display: flex;
+  align-items: center;
+  width: 1076px;
+  height: 530px;
+  background: rgba(19, 61, 141, 0.15);
+  padding: 60px;
+}
+.slider-block__arrow-right {
+  padding: 25px;
+  width: 60px;
+  height: 60px;
+  background: #133D8D;
+}
+.slider-block__arrow-left {
+  padding: 25px;
+  width: 60px;
+  height: 60px;
+  background: #133D8D;
+}
+
+.safe-desc__btn {
+  padding: 8px 12px;
+  background: #133D8D;
+  border: none;
+  margin-bottom: 45px;
+  font-family: "Helvetica Neue Cyr Medium", sans-serif;
+  font-size: 13px;
+  line-height: 140%;
+  color: #fff;
+}
+.safe-desc__title {
+  margin-bottom: 25px;
+  font-family: "Helvetica Neue Cyr Bold", sans-serif;
+  font-size: 18px;
+  line-height: 140%;
+  color: #333333;
+  text-transform: uppercase;
+}
+.safe-desc__list {
+  width: 387px;
+  list-style: url(../img/red-square.jpg);
+}
+.safe-desc__item {
+  margin-bottom: 25px;
+  font-family: "Helvetica Neue Cyr Light", sans-serif;
+  font-size: 14px;
+  line-height: 140%;
+  color: #333333;
+}
+.safe__img {
+  margin-left: 60px;
+  height: 410px;
+}
+
+.footer {
+  padding: 60px 0 100px 0;
+  background: #133D8D;
+}
+.footer__logo {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.footer__nav {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__menu-title {
+  margin-bottom: 25px;
+  font-family: "Helvetica Neue Cyr Medium", sans-serif;
+  font-size: 16px;
+  line-height: 140%;
+  color: #fff;
+  text-transform: uppercase;
+}
+.footer__menu-item {
+  margin-bottom: 15px;
+}
+.footer__menu-link {
+  font-family: "Helvetica Neue Cyr Light", sans-serif;
+  font-size: 14px;
+  line-height: 140%;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.footer__adress-piter {
+  font-family: "Helvetica Neue Cyr Light", sans-serif;
+  font-size: 14px;
+  line-height: 140%;
+  color: #fff;
+  text-align: end;
+  max-width: 266px;
+  margin-bottom: 15px;
+}
+.footer__adress-moscow {
+  font-family: "Helvetica Neue Cyr Light", sans-serif;
+  font-size: 14px;
+  line-height: 140%;
+  color: #fff;
+  text-align: end;
+  max-width: 266px;
+  margin-bottom: 30px;
+}
+.footer__adress-fon {
+  font-family: "Helvetica Neue Cyr Light", sans-serif;
+  font-size: 14px;
+  line-height: 140%;
+  color: #fff;
+  text-align: end;
+  text-decoration: none;
+  display: block;
+  max-width: 266px;
+  margin-bottom: 11px;
+}
+.footer__adress-mail {
+  font-family: "Helvetica Neue Cyr Light", sans-serif;
+  font-size: 14px;
+  line-height: 140%;
+  color: #fff;
+  text-align: end;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: block;
+  max-width: 266px;
 }/*# sourceMappingURL=style.css.map */

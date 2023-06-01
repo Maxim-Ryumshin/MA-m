@@ -1,0 +1,103 @@
+.project
+  background: rgba(19, 61, 141, 0.5)
+  padding-bottom: 150px
+  margin-bottom: 150px
+  &-wraper
+    display: flex
+    align-items: center
+    padding-bottom: 45px
+    padding-top: 100px
+  &__title
+    width: 950px
+    height: 50px
+    +light
+    font-size: 36px
+    line-height: 140%
+    color: $primery-color
+    &-small
+      +medium
+      font-size: 18px
+      line-height: 140%
+      color: $primery-color
+      margin-left: 50px
+      margin-right: 40px
+  &__arrow
+    display: flex
+    &-right
+      width: 60px
+      height: 60px
+      background: $third-color
+    &-left
+      width: 60px
+      height: 60px
+      background: $third-color
+      margin-right: 15px
+  &__blocks
+    &-wraper
+      display: flex
+  &__ship
+    width: 706px
+    height: 600px
+    background: url(../img/bg-ship.png) no-repeat center
+    background-size: cover
+    &-title
+      +bold
+      font-size: 24px
+      line-height: 140%
+      color: $primery-color
+      padding-top: 441px
+      padding-left: 45px
+      margin-bottom: 20px
+    &-desc
+      display: block
+      max-width: 468px
+      max-height: 60px
+      +light
+      font-size: 14px
+      line-height: 140%
+      color: $primery-color
+      padding-left: 45px
+      margin-bottom: 45px
+  &__charec
+    width: 590px
+    height: 600px
+    background: #133D8D
+.charec
+  &-wraper
+    display: flex
+    padding-top: 55px
+    padding-left: 60px
+    margin-bottom: 180px
+  &__item
+    +medium
+    font-size: 40px
+    line-height: 140%
+    margin-bottom: 10px
+    &-sz
+      padding-left: 15px
+      +light
+      font-size: 14px
+      line-height: 140%
+    &-desc
+      padding-left: 15px
+      margin-bottom: 30px
+      +light
+      font-size: 14px
+      line-height: 140%
+  &__btn
+    padding: 15px 20px
+    margin-left: 60px
+    background: transparent
+    border-color: #fff
+    +medium
+    font-size: 16px
+    line-height: 140%
+    letter-spacing: 0.05em
+    color: $primery-color
+    text-transform: uppercase
+    transition: all 0.2s
+    &:hover
+      transform: scale(1.05)
+      border-color: $third-color
+      background: #fff
+      color: $third-color

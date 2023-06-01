@@ -18,6 +18,8 @@
     margin-bottom: 50px
   &__btn
     margin-bottom: 131px
+    &:hover
+      background-color: rgba(#BD0007, 0.5)
   &__arrow
     display: flex
     &-img
@@ -32,3 +34,34 @@
       background: $third-color
       margin-right: 20px
       margin-bottom: 100px
+  &__tanker
+    position: absolute
+    left: 57%
+    top: 72%
+.tanker
+  width: 526px
+  height: 235px
+  background: rgba(51, 51, 51, 0.3)
+  &-wrap
+    display: flex
+    align-items: center
+  &__title
+    margin: 30px 35px 10px 35px
+    +medium
+    font-size: 14px
+    line-height: 140%
+    text-transform: uppercase
+.feature
+  &__item
+    margin: 15px 15px 15px 35px
+    +light
+    font-size: 14px
+    line-height: 140%
+    color: $primery-color
+.desc
+  &__item
+    margin: 15px 76px 15px 0
+    +light
+    font-size: 14px
+    line-height: 140%
+    color: $primery-color
